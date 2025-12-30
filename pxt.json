@@ -8,12 +8,7 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "scoreboard.ts",
-        "examples.ts",
-        "README.md"
-    ],
-    "testFiles": [
-        "test.ts"
+        "scoreboard.ts"
     ],
     "targetVersions": {
         "target": "2.1.26",

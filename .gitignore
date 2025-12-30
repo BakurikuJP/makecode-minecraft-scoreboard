@@ -1,0 +1,12 @@
+# MakeCode generated files
+built/
+node_modules/
+.pxt/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local settings
+*.local

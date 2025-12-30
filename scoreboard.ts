@@ -1,12 +1,11 @@
 /**
- * Scoreboard Helper - Custom Blocks
+ * Score System Helper - Custom Blocks
  */
 
-//% block="スコアボード"
-//% color="#27ae60"
-//% icon="\uf0ce"
-//% weight=200
-namespace scoreboardHelper {
+//% block="スコア管理"
+//% color="#16a085"
+//% icon="\uf0ae"
+namespace scoreSystem {
 
     /**
      * Create a new scoreboard objective

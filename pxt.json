@@ -1,20 +1,18 @@
 {
-    "name": "ScoreboardHelper",
-    "version": "0.0.1",
-    "description": "",
+    "name": "makecode-minecraft-scoreboard",
+    "displayName": "Scoreboard",
+    "version": "0.0.2",
+    "description": "An extension for managing scoreboards in MakeCode for Minecraft Education",
     "dependencies": {
         "core": "*"
     },
     "files": [
-        "main.blocks",
         "main.ts",
-        "scoreboard.ts"
+        "scoreboard.ts",
+        "_locales/ja/makecode-minecraft-scoreboard-strings.json",
+        "_locales/ja/makecode-minecraft-scoreboard-jsdoc-strings.json"
     ],
     "testFiles": [],
-    "targetVersions": {
-        "target": "2.1.26",
-        "targetId": "minecraft"
-    },
     "supportedTargets": [
         "minecraft"
     ],

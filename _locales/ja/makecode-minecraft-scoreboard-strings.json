@@ -1,0 +1,10 @@
+{
+    "scoreSystem.createObjective|block": "スコアボード%nameを表示名%displayNameで作成",
+    "scoreSystem.showOnSidebar|block": "%objectiveをサイドバーに表示",
+    "scoreSystem.setMyScore|block": "自分の%objectiveスコアを%valueに設定",
+    "scoreSystem.addToMyScore|block": "自分の%objectiveスコアに%valueを加算",
+    "scoreSystem.removeFromMyScore|block": "自分の%objectiveスコアから%valueを減算",
+    "scoreSystem.resetMyScore|block": "自分の%objectiveスコアをリセット",
+    "scoreSystem|block": "スコアボード",
+    "{id:category}Score System": "スコアボード"
+}

@@ -1,0 +1,18 @@
+{
+    "scoreSystem.createObjective": "新しいスコアボードのobjective（追跡対象）を作成します",
+    "scoreSystem.createObjective|param|name": "objectiveの内部名（英数字）",
+    "scoreSystem.createObjective|param|displayName": "ゲーム内での表示名",
+    "scoreSystem.showOnSidebar": "objectiveをサイドバーに表示します",
+    "scoreSystem.showOnSidebar|param|objective": "表示するobjective名",
+    "scoreSystem.setMyScore": "自分のスコアを設定します",
+    "scoreSystem.setMyScore|param|objective": "objective名",
+    "scoreSystem.setMyScore|param|value": "設定する値",
+    "scoreSystem.addToMyScore": "自分のスコアに値を加算します",
+    "scoreSystem.addToMyScore|param|objective": "objective名",
+    "scoreSystem.addToMyScore|param|value": "加算する値",
+    "scoreSystem.removeFromMyScore": "自分のスコアから値を減算します",
+    "scoreSystem.removeFromMyScore|param|objective": "objective名",
+    "scoreSystem.removeFromMyScore|param|value": "減算する値",
+    "scoreSystem.resetMyScore": "自分のスコアをリセットします",
+    "scoreSystem.resetMyScore|param|objective": "objective名"
+}

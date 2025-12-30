@@ -2,7 +2,7 @@
  * Score System Helper - Custom Blocks
  */
 
-//% block="スコア管理"
+//% block="Score System"
 //% color="#16a085"
 //% icon="\uf0ae"
 namespace scoreSystem {

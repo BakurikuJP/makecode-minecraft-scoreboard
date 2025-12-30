@@ -1,7 +1,7 @@
 {
     "name": "ScoreboardHelper",
-    "version": "1.0.0",
-    "description": "MakeCodeでScoreboardを簡単に操作できる拡張機能",
+    "version": "0.0.1",
+    "description": "",
     "dependencies": {
         "core": "*"
     },
@@ -10,6 +10,7 @@
         "main.ts",
         "scoreboard.ts"
     ],
+    "testFiles": [],
     "targetVersions": {
         "target": "2.1.26",
         "targetId": "minecraft"

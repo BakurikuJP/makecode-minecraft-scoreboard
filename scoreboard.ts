@@ -21,6 +21,17 @@ namespace scoreSystem {
     }
 
     /**
+     * Remove a scoreboard objective
+     * @param name the internal name of the objective to remove
+     */
+    //% block="remove objective %name"
+    //% name.defl="score"
+    //% weight=99
+    export function removeObjective(name: string): void {
+        player.execute("scoreboard objectives remove " + name)
+    }
+
+    /**
      * Display slot options for scoreboard
      */
     export enum DisplaySlot {

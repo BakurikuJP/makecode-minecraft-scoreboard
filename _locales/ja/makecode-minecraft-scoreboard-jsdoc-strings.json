@@ -2,6 +2,8 @@
     "scoreSystem.createObjective": "新しいスコアボードのobjective（追跡対象）を作成します",
     "scoreSystem.createObjective|param|name": "objectiveの内部名（英数字）",
     "scoreSystem.createObjective|param|displayName": "ゲーム内での表示名",
+    "scoreSystem.removeObjective": "スコアボードのobjectiveを削除します",
+    "scoreSystem.removeObjective|param|name": "削除するobjectiveの内部名",
     "scoreSystem.showScoreboard": "objectiveを指定した表示位置に表示します",
     "scoreSystem.showScoreboard|param|objective": "表示するobjective名",
     "scoreSystem.showScoreboard|param|slot": "表示位置",

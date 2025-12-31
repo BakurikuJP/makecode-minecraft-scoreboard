@@ -21,14 +21,39 @@ namespace scoreSystem {
     }
 
     /**
-     * Show objective on sidebar
-     * @param objective the objective name to display
+     * Display slot options for scoreboard
      */
-    //% block="show %objective on sidebar"
+    export enum DisplaySlot {
+        //% block="sidebar"
+        Sidebar,
+        //% block="below name"
+        BelowName,
+        //% block="player list"
+        List
+    }
+
+    /**
+     * Show objective on the specified display slot
+     * @param objective the objective name to display
+     * @param slot the display location
+     */
+    //% block="show %objective on %slot"
     //% objective.defl="score"
     //% weight=90
-    export function showOnSidebar(objective: string): void {
-        player.execute("scoreboard objectives setdisplay sidebar " + objective)
+    export function showScoreboard(objective: string, slot: DisplaySlot): void {
+        let slotName = ""
+        switch (slot) {
+            case DisplaySlot.Sidebar:
+                slotName = "sidebar"
+                break
+            case DisplaySlot.BelowName:
+                slotName = "belowname"
+                break
+            case DisplaySlot.List:
+                slotName = "list"
+                break
+        }
+        player.execute("scoreboard objectives setdisplay " + slotName + " " + objective)
     }
 
     /**

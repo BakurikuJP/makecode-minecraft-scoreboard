@@ -1,6 +1,9 @@
 {
     "scoreSystem.createObjective|block": "スコアボード%nameを表示名%displayNameで作成",
-    "scoreSystem.showOnSidebar|block": "%objectiveをサイドバーに表示",
+    "scoreSystem.showScoreboard|block": "%objectiveを%slotに表示",
+    "scoreSystem.DisplaySlot.Sidebar|block": "サイドバー",
+    "scoreSystem.DisplaySlot.BelowName|block": "名前の下",
+    "scoreSystem.DisplaySlot.List|block": "プレイヤーリスト",
     "scoreSystem.setMyScore|block": "自分の%objectiveスコアを%valueに設定",
     "scoreSystem.addToMyScore|block": "自分の%objectiveスコアに%valueを加算",
     "scoreSystem.removeFromMyScore|block": "自分の%objectiveスコアから%valueを減算",
